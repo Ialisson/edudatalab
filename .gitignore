@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# --- Regras Customizadas do EduDataLab ---
+# Ignorar arquivos de dados locais (bronze, silver, gold)
+data/*
+!data/.gitkeep
+
+# Ignorar arquivos de ambiente (senhas)
+.env
